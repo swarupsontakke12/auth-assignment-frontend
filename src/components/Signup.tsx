@@ -56,8 +56,8 @@ const Signup: React.FC = () => {
     setSuccessMessage("");
 
     const registrationRequest: RegistrationRequest = {
-      username: name,
-      email: email,
+      name,
+      email,
       password,
     };
     try {
